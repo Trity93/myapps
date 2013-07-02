@@ -1,0 +1,100 @@
+body {
+	margin:0;
+	color:#333333;
+	font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	-webkit-padding-start: 0px;
+}
+a {
+	text-decoration: none;
+	color:inherit;
+}
+.sep10 {
+	width: 980px;
+	height: 93px;
+	background-image: url("pic/sep-line.jpg");
+	margin: auto;
+}
+
+/*main_over*/
+#top {
+	font-size:1.3em;
+	width: 100%;
+	height:50px;
+	background-image:url("pic/top_bg.png");
+	background-repeat: repeat-x;
+
+}
+#top-inner {
+	width: 1024px;
+	margin: auto;
+}
+#logo {
+	float:left;
+}
+
+#top-nav {
+	float: left;
+	height: 50px;
+}
+.top-nav-li {
+	margin: 0 8px;
+	line-height: 50px;
+	color: white;
+	display: inline;
+	text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+/*top_over*/
+#top-big-view {
+	background-color: white;
+}
+#top-pic {
+	width: 1024px;
+	height: 606px;
+	margin: auto;
+	background-image:url("pic/pre-with-s4.png");
+}
+#top-download {
+	float: left;
+	margin-top: 370px;
+	margin-left: 0px;
+}
+.blue-button {
+	/*COPY*/
+	padding: 12px 20px;
+	font-size: 18px;
+	font-weight: normal;
+	border-radius: 6px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #1a96f2;
+	/*background-image: linear-gradient(#0092ff, #1a96f2);*/
+	background-repeat: repeat-x;
+	border-color: #2a65a0;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.25),0 2px 6px rgba(0,0,0,0.25);
+}
+
+/*second view*/
+
+#pomodoro-intro {
+	text-align: center;
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+
+/*bottom place*/
+#footer {
+	background: #fcfcfc;
+	padding: 30px 0 10px 0;
+	border-top: solid 1px #ddd;
+	text-align: center;
+	color: #666666;
+}
+.bottom-link {
+	color: #0090d3;
+	margin-left: 5px;
+	margin-right: 5px;
+}

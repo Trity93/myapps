@@ -1,11 +1,49 @@
----
-layout: default
-title: 我的Blog
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-{% for post in site.posts %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>Dacer's Apps</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body>
+	<div id="top">
+		<div id="top-inner">
+			<div id="logo">
+				<img src="pic/logo.png"></div>
+			<div id="top-nav">
+				<ul id="top-nav-ul">
+					<li class="top-nav-li">
+						<a href="#" class="top-nav-link">Home</a>
+					</li>
+					<li class="top-nav-li">
+						<a href="about.html" class="top-nav-link">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div id="top-big-view">
+
+		<div id="top-pic">
+			<div id="top-download">
+				<a href="#" class="blue-button">DOWNLOAD</a>
+			</div>
+		</div>
+
+	</div>
+	<div class="sep10"></div>
+	<div id="pomodoro-intro">
+		<div id="iphone-img">
+			<img src="pic/pre-with-iphone5-low.png"></div>
+
+	</div>
+	<div id="footer">
+		© 2013 Dacer — All Rights Reserved.
+		<p>
+			<a class="bottom-link" href="https://github.com/dacerGithub" target="_blank">Github</a>
+			<a class="bottom-link" href="#" target="_blank">Blog</a>
+		</p>
+	</div>
+</body>
+</html>
