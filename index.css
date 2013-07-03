@@ -62,6 +62,10 @@ a {
 	margin-top: 370px;
 	margin-left: 0px;
 }
+#qr-code {
+	margin-top: 29px;
+	margin-left: 22px;
+}
 .blue-button {
 	/*COPY*/
 	padding: 12px 20px;
@@ -85,6 +89,15 @@ a {
 	margin-bottom: 30px;
 }
 
+#introduction {
+	text-align: center;
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+/*#introduction ul {
+	color: red;
+	list-style-type: circle;
+}*/
 /*bottom place*/
 #footer {
 	background: #fcfcfc;
