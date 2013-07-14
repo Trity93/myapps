@@ -3,7 +3,7 @@ function onClickDownload(){
 	    files: [
 	        {
 	        	'url':document.getElementById("url").value, 
-	        	'filename':''}
+	        	'filename':document.getElementById("file-name").value}
 	    ],
     success: function() {console.log("success");},
     progress: function(progress) {console.log(progress);},
