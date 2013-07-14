@@ -14,7 +14,7 @@ function onClickDownload() {
         },
         progress: function(progress) {
             // console.log(progress);
-            showProcess();
+            showToast("Downloading.."+progress*100+"%");
         },
         cancel: function() {
             console.log("cancel");
@@ -33,14 +33,14 @@ function onClickDownload() {
     
 }
 
-function showProcess(){
-	var light = document.getElementById("light");
-	light.style.display="block";
-	var fade = document.getElementById("fade");
-	fade.style.display="block";
-	var waitNode = document.createTextNode("Downloadind..");
-	light.appendChild(waitNode);	
-}
+// function showProcess(){
+// 	var light = document.getElementById("light");
+// 	light.style.display="block";
+// 	var fade = document.getElementById("fade");
+// 	fade.style.display="block";
+// 	var waitNode = document.createTextNode("Downloadind..");
+// 	light.appendChild(waitNode);	
+// }
 
 function showToast(toastText){
 	var allAlpha = 0;
