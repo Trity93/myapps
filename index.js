@@ -33,12 +33,12 @@ function showUpdateLog(){
 	
 	
 	//What's new
-	if (whatsNewHeight<300) {
+	if (whatsNewHeight<380) {
 		var addHeightAnim=window.setInterval(
 		function (){
 			whatsNew.style.height=whatsNewHeight+"px";
 			whatsNewHeight+=3;
-			if(whatsNewHeight>300){
+			if(whatsNewHeight>380){
 			clearInterval(addHeightAnim);
 			//show exit Button
 			c.style.display="block";
