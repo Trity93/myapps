@@ -93,6 +93,9 @@ a {
 	display: none;
 	z-index: -99;
 	text-align: left;
+	height: 370px;
+	overflow: auto;
+	overflow-x: hidden;
 }
 
 #new-exit {
