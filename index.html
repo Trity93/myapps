@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en-US">
 <head>
-	<title>极简番茄</title>
+	<title>Simple Pomodoro</title>
 	<meta charset="UTF-8" />
-	<meta name="description" content="简">
+	<meta name="description" content="The official website of Simple Pomodoro">
 	<meta name="author" content="Dacer" />
 	<link rel="stylesheet" href="index.css" type="text/css"/>
 </head>
@@ -15,10 +15,7 @@
 			<div id="top-nav">
 				<ul id="top-nav-ul">
 					<li class="top-nav-li">
-						<a href="#" class="top-nav-link">主页</a>
-					</li>
-					<li class="top-nav-li">
-						<a href="about.html" class="top-nav-link">关于</a>
+						<a href="#" class="top-nav-link">Home</a>
 					</li>
 				</ul>
 			</div>
@@ -29,48 +26,8 @@
 
 		<div id="top-pic">
 			<div id="top-download">
-				<a href="SimplePomodoro.apk" class="blue-button">DOWNLOAD</a>
-				<p>
-					<img src="pic/qrcode.png" id="qr-code" onclick="mOver(this)" onmouseover="mOver(this)"></p>
-
+				<a href="https://play.google.com/store/apps/details?id=com.dacer.simplepomodoro"><img src="pic/googleplay-download.png" id="gdownload-logo"></a>
 			</div>
-		</div>
-
-	</div>
-	<div id="whats-new">
-		<canvas id="new-exit" width="50" height="50" onclick="exitOnClick()">X</canvas>
-		<div id="new-inner">
-			<h2>更新日志</h2>
-			<h3>V1.9.3</h3>
-			<ol>
-				<li>重写计时部分，后台完全不需占用内存，在后台被关闭后仍可正常到点提醒(大概。。)</li>
-				<li>支持横屏</li>
-			</ol>
-			<h3>V1.9</h3>
-			<ol>
-				<li>增加Task功能并可与google同步</li>
-			</ol>
-			<h3>V1.3 更新内容：</h3>
-			<ol>
-				<li>主界面中文化，且嵌入细体字体使中英文界面风格统一</li>
-				<li>后台运行时加入通知栏提醒(Tip:提醒的右下角数字为连续进行的番茄数)</li>
-				<li>细微UI调整</li>
-				<li>加入小彩蛋一枚</li>
-				<li><del>有没有好心人能帮我投到google play里>_&#60; </del> 好心人已找到</li>
-			</ol>
-
-			<h3>1.2.3更新内容：</h3>
-			<ol>
-				<li>各分辨率下的界面美化统一</li>
-				<li>增加周统计功能</li>
-				<li>增加番茄时间设置项，去除较长休息时间设置项并固定为25分钟</li>
-				<li>细微的bug修正和改进</li>
-				
-			</ol>
-			<h3>1.2.2更新内容</h3>
-			<ol>
-				<li>太久远忘了。。</li>
-			</ol>
 		</div>
 
 	</div>
@@ -79,54 +36,16 @@
 		<div id="iphone-img">
 			<img src="pic/pre-with-iphone5-low.png"></div>
 	</div>
-	<div class="sep10"></div>
-	<div id="introduction">
-		<div id="container">
-			<div class="features">
-				<h2>使用方式</h2>
-				<ol>
-					<li>点击start</li>
-					<li>开始工作</li>
-					<li>屏幕自动亮起提示休息</li>
-					<li>开始休息</li>
-					<li>循环。。</li>
-				</ol>
-
-			</div>
-			<div class="features">
-				<h2>独创特性</h2>
-				<ol>
-					<li>急速模式: 启动番茄时自动锁屏，完成时自动亮屏，让您能专注于手中工作（需在设置中开启）</li>
-					<li>专为不同场景考虑，防止影响他人可开关小幅度振动，亦可自定义提示音</li>
-					<li>每日，周，总的番茄统计功能</li>
-					<li>黑白主题</li>
-					<li>Google Task 同步</li>
-					<li>更多贴心功能期待您的发现</li>
-				</ol>
-
-			</div>
-			<div class="features">
-				<h2><del>即将实现</del></h2>
-				<ul>
-					<li><del>•每日任务列表</del>/li>
-					<li><del>•Google task同步功能</del></li>
-				</ul>
-
-			</div>
-		</div>
-
-	</div>
-	<div id="footer">
-		© 2013 Dacer — All Rights Reserved.
-		<p>
-			<a class="bottom-link" href="https://github.com/dacer" target="_blank">Github</a>
-			<a class="bottom-link" href="https://idacer.tk" target="_blank">Blog</a>
-			<a class="bottom-link" href="https://m.alipay.com/personal/payment.htm?userId=2088012494284978&reason=%E6%94%AF%E6%8C%81%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91&weChat=true" target="_blank">支持我</a>
-		</p>
-	</div>
-	<script src="index.js"></script>
-	<!-- google analytic -->
-	<script>
+	
+<div id="footer">
+	© 2013 Dacer — All Rights Reserved.
+	<p>
+		<a class="bottom-link" href="https://github.com/dacer" target="_blank">Github</a>
+		<a class="bottom-link" href="#" target="_blank">Blog</a>
+	</p>
+</div>
+<!-- google analytic -->
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -136,7 +55,6 @@
   ga('send', 'pageview');
 
 </script>
-	<!-- <script type="text/javascript" src="index.js"></script>
--->
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
