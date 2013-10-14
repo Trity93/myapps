@@ -10,5 +10,4 @@ function checkLanguage() {
   if(language.indexOf("CN") != -1){
     window.location.replace("http://dacer.github.io/myapps/cn");
   }
-  alert(language);
 }
